@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 import { StyleSheet, TouchableOpacity, View, Image } from "react-native";
 import React from "react";
 import CustomFont from "../../components/CustomFont";
@@ -97,4 +95,3 @@ const styles = StyleSheet.create({
 
 
 });
->>>>>>> Stashed changes
