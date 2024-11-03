@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -18,3 +19,22 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+=======
+// App.tsx is used for the routing of all the screens you have in app/screens
+
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import Test from "./app/screens/Test";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
+
+// Variable for stack navigator which will be used below
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <>
+      <WelcomeScreen />
+    </>
+  );
+}
+>>>>>>> Stashed changes
